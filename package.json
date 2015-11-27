@@ -1,0 +1,29 @@
+{
+  "name": "requirejs-mocha-boilerplate",
+  "version": "0.0.0",
+  "description": "Requirejs / Mocha Testing Boilerplate",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chalk": "^1.1.1",
+    "grunt": "latest",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-mocha": "^0.4.13",
+    "grunt-mocha-appium": "^0.4.0",
+    "grunt-mocha-browser": "0.0.5",
+    "grunt-mocha-phantomjs": "^2.0.1",
+    "load-grunt-tasks": "^3.2.0",
+    "mocha": "^2.3.4",
+    "phantomjs": "^1.9.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Stewart Anderson",
+  "contributors": []
+}

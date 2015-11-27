@@ -1,0 +1,30 @@
+{
+  "name": "requirejs-mocha-boilerplate",
+  "version": "0.0.0",
+  "authors": ["Stewart Anderson"],
+  "description": "Requirejs / Mocha Testing Boilerplate",
+  "directory": "./bower_components/",
+  "componentsDirectory": "./bower_components/",
+  "main": "../main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "0.2.9",
+    "backbone": "1.2.1",
+    "handlebars": "^4.0.2",
+    "jquery": "1.10.2",
+    "requirejs": "2.1.14",
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4",
+    "chai-jquery": "~2.0.1"
+  }
+}

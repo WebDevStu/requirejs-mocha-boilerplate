@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             install: {
                 options: {
                     install:        true,
-                    targetDir:      './bower_components'
+                    targetDir:      './js/library'
                 }
             }
         },

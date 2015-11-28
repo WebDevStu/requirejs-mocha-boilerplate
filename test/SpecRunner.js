@@ -3,13 +3,13 @@
 require.config({
     baseUrl: '../js/',
     paths: {
-        'mocha':        '../bower_components/mocha/mocha',
-        'jquery':       '../bower_components/jquery/jquery',
-        'chai-jquery':  '../bower_components/chai-jquery/chai-jquery',
-        'chai':         '../bower_components/chai/chai',
-        'underscore':   '../bower_components/underscore/underscore',
-        'backbone':     '../bower_components/backbone/backbone',
-        'handlebars':   '../bower_components/handlebars/handlebars.amd'
+        'mocha':        'library/mocha/mocha',
+        'jquery':       'library/jquery/jquery',
+        'chai-jquery':  'library/chai-jquery/chai-jquery',
+        'chai':         'library/chai/chai',
+        'underscore':   'library/underscore/underscore',
+        'backbone':     'library/backbone/backbone',
+        'handlebars':   'library/handlebars/handlebars.amd'
     },
     shim: {
         'mocha': {

@@ -35,27 +35,30 @@ define(['mocha'], function (mocha) {
 
     require([
         // model tests (module then test file)
-        'model',
+        'models/model',
         '../test/modules/model-test',
         // view tests (module then test file)
-        'view',
-        '../test/modules/view-test'
+        'views/view',
+        '../test/modules/view-test',
         // collection test (module then test file)
-        //..
+        'collections/collection',
+        '../test/modules/collection-test'
     ], function (
         // model tests
         Model,
         modelTest,
         // view tests
         View,
-        viewTest
+        viewTest,
         // collection tests
-        //..
+        Collection,
+        collectionTest
     ) {
 
         // register the tests, passing required deps.
         modelTest(Model);
         viewTest(View, Model);
+        collectionTest(Collection);
 
         // start tests
         mocha.run();
